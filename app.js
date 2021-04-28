@@ -66,7 +66,15 @@ content: req.body.postBody
 
 app.get (/posts/:postName", function(req,res)) {
 
-  console.log(req.params.postName)
+ const requestedTitle = (req.params.postName);
+
+ posts.forEach(function(post){
+
+  let storeTitle = post.title;
+
+  
+
+ })
 
 }
 
