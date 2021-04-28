@@ -64,7 +64,11 @@ content: req.body.postBody
   } );
 
 
+app.get (/posts/:postName", function(req,res)) {
 
+  console.log(req.params.postName)
+
+}
 
 
 app.listen(3000, function() {
@@ -72,4 +76,3 @@ app.listen(3000, function() {
 });
 
 
-nnn
