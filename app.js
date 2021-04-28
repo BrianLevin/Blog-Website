@@ -70,13 +70,16 @@ app.get (/posts/:postName", function(req,res)) {
 
  posts.forEach(function(post){
 
-  let storeTitle = post.title;
+  const storeTitle = post.title;
 
-  
+if(storedTitle === requestedTitle) {
 
- })
-
+  console.log("Match found)
 }
+
+ });
+
+});
 
 
 app.listen(3000, function() {
